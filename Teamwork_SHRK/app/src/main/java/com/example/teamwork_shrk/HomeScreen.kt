@@ -33,7 +33,7 @@ fun HomeScreen(navController: NavHostController)
 
         Button(onClick =
         {
-            if (UserName == "AmirHossein" && Password == "1234")
+            if (UserName == "Teamwork_SHRK" && Password == "1234")
             {
                 Toast.makeText(context,"Right", Toast.LENGTH_SHORT).show()
                 navController.navigate(Second.route)
